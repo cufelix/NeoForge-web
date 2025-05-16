@@ -8,7 +8,7 @@ const Contact: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Get In Touch</h2>
-          <p className="text-gray-300 max-w-2xl mx-auto">
+          <p className="text-black-300 max-w-2xl mx-auto">
             Ready to discuss your project? Contact us today for a free consultation.
           </p>
         </div>
@@ -30,7 +30,7 @@ const Contact: React.FC = () => {
                     <Phone className="h-5 w-5 text-blue-400" />
                   </div>
                   <div className="ml-4">
-                    <p className="text-sm font-medium text-gray-400">Phone</p>
+                    <p className="text-sm font-medium text-black-400">Phone</p>
                     <p className="text-base">+420 737 400 971</p>
                   </div>
                 </div>
@@ -40,7 +40,7 @@ const Contact: React.FC = () => {
                     <Mail className="h-5 w-5 text-blue-400" />
                   </div>
                   <div className="ml-4">
-                    <p className="text-sm font-medium text-gray-400">Email</p>
+                    <p className="text-sm font-medium text-grey-400">Email</p>
                     <p className="text-base">info@NeoForge.com</p>
                   </div>
                 </div>
