@@ -13,7 +13,28 @@ const ContactForm: React.FC = () => {
         const { name, value } = e.target;
         setFormData(prev => ({ ...prev, [name]: value }));
     };
-
+/*
+African aborigine
+------------------
+         www
+        /n n\        /\
+        |/^\|       /  \
+        | , |       ^||^
+         \_/         ||
+         _U_         ||
+       /`   `''-----'P3
+      / |. .|''-----"||
+      \'|   |        ||
+       \|   |        ||
+        E   |        ||
+       /#####\       ||
+       /#####\       ||
+         |||         ||
+         |||         ||
+         |||         ||
+         ||| gem     ||
+        molom        Ll
+ */
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
 
